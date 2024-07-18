@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="paragraph" class="text">Thẻ p1</p>
+    <p id="paragraph" class="text">Thẻ p2</p>
+    <div class="text">Đây là thẻ div</div>
+
+    <h1 id="h1">Tiều đề H1</h1>
+
+    <a id="tagA" class="test" data-src="https://coccoc.com" href="https://github.com/">Github</a>
+
+    <ul id="favorite-list">
+        <li class="favorite-list-item">Sách</li>
+        <li class="favorite-list-item">Máy tính</li>
+        <li class="favorite-list-item">Điện thoại</li>
+    </ul>
+    <button onclick="logger()">Hello</button>
+    <button id="btn">Bye bye</button>
+    <script src="scripts.js"></script>
+    <script>
+        function logger(){
+            alert('Hello!');
+        }
+
+        function Saybye1(){
+            alert('Say bye 1');
+        }
+
+        function Saybye2(){
+            alert('Say bye 2');
+        }
+
+        const $btn = document.getElementById('btn');
+        // $btn.onclick = Saybye1;
+        // $btn.onclick = Saybye2;
+        $btn.addEventListener('click', Saybye1);
+        $btn.addEventListener('click', Saybye2);
+    </script>
+</body>
+</html>

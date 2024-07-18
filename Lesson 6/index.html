@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: red;
+        }
+        @media (max-width: 512px){
+            body{
+                background: blue;
+            }
+        }
+        @media(min-width: 512px) and (max-width: 768px){
+            body{
+                background: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!--
+        Khi kích thước màn hình >= 768px, thẻ <body> có background:red;
+        Khi kích thước màn hình < 512px, thẻ <body> có background: blue;
+    -->
+    
+</body>
+</html>

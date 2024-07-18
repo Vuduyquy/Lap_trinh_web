@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 1px solid #7f9ec9;
+            width: 40%;
+            padding: 16px 20px;
+            background: #dae8fc;   
+            margin: auto;     
+        }
+        .paragraph{
+            border: 1px solid #c56c68;
+            background: #f8cecc;
+            padding: 16px;
+        }
+        .btn{
+            color:white;
+            border: none;
+            padding: 8px 18px;
+            border-radius: 4px;
+        }
+        .btn-delete{
+            background: #d80073 ;
+            border: 1px solid #b2004d;
+
+        }
+        .btn-keep{
+            background: #1ba1e2 ;
+            border: 1px solid #0980c1;
+        }
+        .dialog{
+            border: 1px solid #419fa5;
+            background: #b0e3e6;
+            padding: 12px 4px;
+            width: 130px;
+            text-align: center;
+            position: absolute;
+            top: -85px;
+            left: -30px;
+            opacity: 0;
+        }
+        .row-buttons{
+            position: relative;
+        }
+        .btn-delete:hover ~ .dialog{
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="paragraph">
+            Group được tạo ra mới mục đích Giao lưu, trao đổi, học hỏi
+            từ các Thầy/Cô giáo, cựu học sinh và học sinh đang học tại trường.
+            Hi vọng group sẽ mang lại những thông tin, tin tức, chia sẻ học tập
+            tới tất cả mọi người và xây dựng cộng đồng THPT Bắc Đông Quan ngày càng lớn mạnh.
+        </p>
+        <div class="row-buttons">
+            <button class=" btn btn-delete">Delete</button>
+            <button class="btn btn-keep">Keep</button>
+            <p class="dialog">Có không giữ, xóa đừng tiếc</p>
+        </div>
+    </div>
+</body>
+</html>

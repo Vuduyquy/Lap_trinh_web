@@ -1,0 +1,53 @@
+/* h2{
+    color: red;
+} */
+
+/* Selector theo tag name */
+/* p{
+    color:blue
+} */
+
+/* Selector theo id */
+/* #paragraph{
+    color:aquamarine;
+    font-size: 20px;
+} */
+
+/* Selector theo class */
+/* .paragraph{
+    color:darkblue
+} */
+
+/* Thứ tự ưu tiên trong CSS
+    1. !importanr
+    2. inline CSS
+    3. Id
+    4. class
+    5. tag name */
+/*  Color: điều chỉnh màu chữ
+    font-family: điều chỉnh font chữ
+    font-size: điều chỉnh kích thước chữ
+    font-weigh: điều chỉnh độ đậm nhạt của chữ
+    text-align: điều chỉnh vị trí của chữ(thẻ block)
+    background-color: điều chỉnh màu nền
+    background-image: điều chỉnh ảnh nền
+    background: 
+    border: tạo đường viền cho phần tử
+    border-radius: bo góc cho đường viền
+    width: điều chỉnh chiều rộng cho phần tử(thẻ block)
+    height: điều chỉnh chiều cao cho phần tử(thẻ block)
+    margin: điều chỉnh khoảng cách so với các phần tử
+    padding: tạo khoảng cách giưã boder và content
+    opacity: điều chỉnh độ trong suốt của phần tử
+    
+    -Các cách viết gía trị màu:
+        +viết theo tên màu: red, green,...
+        +viết theo mã hexa:#00000
+        +viết theo mã rgb:rgb(0,0,0)
+        +viết theo mã rgba: rgba(0,0,0,0.2)
+        
+    4 thành phần:
+        + margin: khoảng cách với các phần tử liền kề, không tính vào kích thước
+        + border: đường viền vào phần tử
+        + content: nội dung của khối
+        + padding: khoảng cách giữa đường viền và nội dung*/
