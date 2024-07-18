@@ -47,3 +47,4 @@
 //         clearInterval(id);
 //     }
 // }, 2000)
+console.log('hello')
